@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{9E5A8D46-BF9A-204F-F01D-F41B7EA0A62F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_3_0;UNITY_2017_3;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Action.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActiveRaggy.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Actor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorBlip.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorIk.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorSpawner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AiActorController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AIFollow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AILerp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AIPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AlternatingMountedWeapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ammobox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AstarDebugger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AstarPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AstarSmoothFollow2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BezierMover.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BinocsAlert.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Binoculars.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BloodParticle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Boat.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraPosition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraScroll.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraSway.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CapturePoint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Car.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CarHorn.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CellBlock.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CellBlockUtils\Coordinate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ColorScheme.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CommandMap.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CommandMapData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CommandRoomCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConfigurableJointExtensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConnectionType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CoverManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CoverPlacer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CoverPoint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DecalManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DeltaYawGui.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DetailObjectQuality.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DistanceField.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DoorController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DropdownExplanation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DynamicGridObstacle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EasyRoads3DTerrainID.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExplodingProjectile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Extensions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Eyes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FollowMainCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ForcedAiTarget.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ForceRenderQueue.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FpsActorController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GetNextTargetDelegate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GotoMe.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GotoMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GraphDebugMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GraphUpdateThreading.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GrenadeProjectile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GroupController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HeadingGuide.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Helicopter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Heuristic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Hitbox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Hurtable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IngameMenuUi.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IngameUi.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Javelin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\JavelinMissile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelBounds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelMiniature.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LevelTester.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Lifetime.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LightweightRVO.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LoadoutUi.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LocalSpaceGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LocalSpaceRichAI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ManagerSpawner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MarkerScript.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MaterialColorChanger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MeanFilter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MeanFilterVector3.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Medipack.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MeleeWeapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MenuActor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MinimapCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MinimapUi.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MountedCameraWeapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MountedTurret.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MountedWeapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Mouth.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NightVision.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NodeDelegate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectPlacer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnGraphDelegate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnPathDelegate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnScanDelegate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnScanStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OptionsUi.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OwnerIndicator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PathCompleteState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\ABPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\ABPathEndingCondition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\AdvancedSmooth.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\AlternativePath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\AnimationLink.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\AstarColor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\AstarData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\AstarEnumFlagAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\AstarMath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\AstarProfiler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\AstarSplines.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\BBTree.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\BinaryHeapM.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\ColliderType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\ConstantPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\DebugUtility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\EndingConditionDistance.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\EndingConditionProximity.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\EuclideanEmbedding.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\FleePath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\FloodPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\FloodPathConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\FloodPathTracer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\FunnelModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphCollision.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphEditorBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphHitInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphNodeDelegate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphNodeDelegateCancelable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphUpdateObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphUpdateScene.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphUpdateShape.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GraphUpdateUtilities.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GridGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GridNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\GridNodeBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\HeuristicOptimizationMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\INavmesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\INavmeshHolder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Int2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Int3.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\IntRect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\IPathModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\IRaycastableGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\IUpdatableGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\LayerGridGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\LayerGridGraphUpdate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\LevelGridNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\LinkedLevelCell.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\LinkedLevelNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\MeshNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\MineBotAI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\MonoModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\MultiTargetPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NavGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NavmeshAdd.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NavmeshClamp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NavmeshCut.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NavMeshGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NNConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NNInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NodeLink.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NodeLink2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NodeLink3.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NodeLink3Node.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\NumNeighbours.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\ObjImporter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Path.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PathEndingCondition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PathHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PathModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PathNNConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PathNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PathPool.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PathThreadInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PathUtilities.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PointGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\PointNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Polygon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Profile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Progress.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RandomPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RaycastModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RayDirection.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RecastBBTree.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RecastBBTreeBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RecastGraph.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RecastMeshObj.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RelevantGraphSurface.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RichAI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RichFunnel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RichPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RichPathPart.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RichSpecial.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\IAgent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\Line.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\ObstacleVertex.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\RVOController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\RVOLayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\RVONavmesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\RVOObstacle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\RVOQuadtree.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\RVOSimulator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\RVOSquareObstacle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\Sampled\Agent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\RVO\Simulator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\AstarSerializer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\BoundsConverter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\GraphMeta.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\GraphSerializationContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\GuidConverter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\IntKeyDictionaryConverter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\LayerMaskConverter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\MatrixConverter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\SerializeSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\UnityObjectConverter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Serialization\VectorConverter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\SimpleSmoothModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\StartEndModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\TagMask.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\TargetMover.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\ThreadControlQueue.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\TileHandlerHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\TriangleMeshNode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\UnityReferenceHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Util\Checksum.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Util\Guid.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Util\IAstarPooledObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Util\ListPool.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Util\LockFreeStack.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Util\Memory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Util\ObjectPool.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Util\StackPool.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Util\TileHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\VectorMath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\CompactVoxelCell.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\CompactVoxelSpan.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\ExtraMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\LinkedVoxelSpan.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\Utility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\VoxelArea.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\VoxelCell.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\VoxelContour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\VoxelContourSet.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\Voxelize.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\VoxelMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\Voxels\VoxelSpan.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\WindowsStore\WindowsStoreCompatibility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pathfinding\XPath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PathfindingManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PathLog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PathState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PathTypesDemo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Paver.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PaverRoad.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PitchRollGuide.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerFpParent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PositionLight.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ProceduralGridMover.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ProceduralWorld.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Projectile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\QualitySwitcher.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RadiusModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RecastTileUpdate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RecastTileUpdateHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ReflectionProber.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RestartLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RoadObjectScript.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Rocket.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Rocky.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RollGuide.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Rotate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RVOAgentPlacer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RVOExampleAgent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SceneryCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScopedWeapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScoreUi.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Seat.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Seeker.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ShellLoadedWeapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\sideObjectScript.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SMath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SoundBank.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spawner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpectatorCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Splash.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SplashRotor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spring.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Squad.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Stairways.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SuperWrench.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SurfaceScript.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Tank.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TankTurret.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TerrainTexturer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TestSMath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ThreadCount.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ThrowableWeapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TimeOfDay.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ToggleableItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnderwaterCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityStandardAssets\ImageEffects\CubemapGlobalFog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UvAutoScroll.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UvOffset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Vehicle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VehicleSpawner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VertexRedToAlpha.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WaterLevel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponPhotoShoot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WeaponUser.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Wrench.cs" />
+     <None Include="Assets\Shader\Internal-MotionVectors.shader" />
+     <None Include="Assets\Shader\surfaceAlpha.shader" />
+     <None Include="Assets\Shader\EasyRoads3D Marker.shader" />
+     <None Include="Assets\Shader\Internal-DepthNormalsTexture.shader" />
+     <None Include="Assets\Shader\DecalMultiply.shader" />
+     <None Include="Assets\Shader\ZTestText.shader" />
+     <None Include="Assets\Shader\UIAdditive.shader" />
+     <None Include="Assets\Shader\EasyRoads3D-Road-Edit-Mode.shader" />
+     <None Include="Assets\Shader\StandardDoubleSide.shader" />
+     <None Include="Assets\Shader\Flag.shader" />
+     <None Include="Assets\Shader\SquareShader.shader" />
+     <None Include="Assets\Shader\EasyRoads3D-Normal-Diffuse.shader" />
+     <None Include="Assets\Shader\Internal-ScreenSpaceShadows.shader" />
+     <None Include="Assets\Shader\MultiplyNoSoft.shader" />
+     <None Include="Assets\Shader\DecalAlphaBlend.shader" />
+     <None Include="Assets\Shader\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Shader\Internal-StencilWrite.shader" />
+     <None Include="Assets\Shader\NoiseAndGrain.shader" />
+     <None Include="Assets\Shader\Shader.shader" />
+     <None Include="Assets\Shader\DepthMask.shader" />
+     <None Include="Assets\Shader\FrameDebuggerRenderTargetDisplay.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2017.3.0f3/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/ivant/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Users/ivant/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/ivant/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>C:/Users/ivant/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Users/ivant/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Users/ivant/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/ivant/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>C:/Users/ivant/OneDrive/Documents/games/AssetRipper_Ravenfield/Ravenfield_Ravenfield_AssetRipper/Assets/Plugins/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.JsonFx">
+ <HintPath>C:/Users/ivant/OneDrive/Documents/games/AssetRipper_Ravenfield/Ravenfield_Ravenfield_AssetRipper/Assets/Plugins/Pathfinding.JsonFx.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Poly2Tri">
+ <HintPath>C:/Users/ivant/OneDrive/Documents/games/AssetRipper_Ravenfield/Ravenfield_Ravenfield_AssetRipper/Assets/Plugins/Pathfinding.Poly2Tri.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3D">
+ <HintPath>C:/Users/ivant/OneDrive/Documents/games/AssetRipper_Ravenfield/Ravenfield_Ravenfield_AssetRipper/Assets/Plugins/EasyRoads3D.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.ClipperLib">
+ <HintPath>C:/Users/ivant/OneDrive/Documents/games/AssetRipper_Ravenfield/Ravenfield_Ravenfield_AssetRipper/Assets/Plugins/Pathfinding.ClipperLib.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{37845803-D1AE-606A-9FE4-161D99B25B9C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
