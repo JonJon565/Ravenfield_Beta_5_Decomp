@@ -1,7 +1,7 @@
 A Decompilation of Ravenfield Beta 5
 
 
-I do not own any of this please get the oroginal version 
+I do not own any of this Please get the original version 
 [Here](https://steelraven7.itch.io/ravenfield)
 and the Early Access version
 [Here](https://store.steampowered.com/app/636480/Ravenfield/)
